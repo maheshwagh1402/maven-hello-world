@@ -1,6 +1,6 @@
 node {
    stage('SCM Checkout') {
-   git 'https://github.com/maheshwagh1402/TestGit'
+   git 'https://github.com/maheshwagh1402/maven-hello-world.git'
 }
     stage('Build') {
       echo 'Hello World'
